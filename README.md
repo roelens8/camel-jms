@@ -1,2 +1,2 @@
 # camel-jms
-A project for sending jms messages via camel
+A project for producing and consuming messages from amqp topics/queues via camel
