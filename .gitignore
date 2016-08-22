@@ -6,6 +6,8 @@
 *.idea
 *.checkstyle
 *.DS_Store
+*.iws
+*.ipr
 node_modules/
 node/
 target/
