@@ -33,7 +33,8 @@ public class MessageRouteBuilder extends RouteBuilder {
     private static Map<String, Object> createMessage() {
         Map<String, Object> sparseMessage = new HashMap<>();
         sparseMessage.put("File_Name", "file1.txt");    
- 	sparseMessage.put("Git", "Master");
+ 	sparseMessage.put("Git", "Merge master/dev-branch");
+	sparseMessage("New Field", "Yes);
 	return sparseMessage;
     }
 
