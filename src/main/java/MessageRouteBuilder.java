@@ -34,7 +34,8 @@ public class MessageRouteBuilder extends RouteBuilder {
         Map<String, Object> sparseMessage = new HashMap<>();
         sparseMessage.put("File_Name", "file1.txt");    
  	sparseMessage.put("Git", "YES!!!!");
-	sparseMessage.put("Hello", "ASD");
+	sparseMessage.put("Hello", "HELLO hello hello");
+	sparseMessage("New Field", "Yes);
 	return sparseMessage;
     }
 
